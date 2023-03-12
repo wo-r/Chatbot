@@ -4,7 +4,7 @@
 
         res = {
             INVALID: "As a **plain javascript** chatbot designed to answer questions with hard-coded responses, I cannot reply to this question you asked as it did not match any I could answer. I would recommend asking what I'm capable of so you can get the most out of me.",
-            HELP: "Since I'm hard-coded to respond to specific questions and not to custom ones I will give you a list of responses I can answer:\n* What is NumberxNumber\n* Can you write a hello word function in javascript?\n* Hello\n* Can you generate an image?</ul>\nIf you want to add more then just [Fork]() this project on github.",
+            HELP: "Since I'm hard-coded to respond to specific questions and not to custom ones I will give you a list of responses I can answer:\n* What is NumberxNumber\n* Can you write a hello word function in javascript?\n* Hello\n* Can you generate an image?</ul>\nIf you want to add more then just [Fork](https://github.com/johnymcreed/Chatbot) this project on github.",
         }
 
         sendUser = (id, msg, identifier) => {

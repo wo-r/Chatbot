@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="UTF8">
+    <head>
+        <title>Chatbot</title>
+        <link rel="stylesheet" href="./site/main.css">
+    </head>
+    <body class="wrapper">
+        <div class="message">
+            <textarea id="bot_input" tabindex="0" rows="1" placeholder="Write a question for the bot to answer" autocapitalize="off" autocomplete="off" autofocus></textarea>
+            <button id="bot_send">Send</button>
+        </div>
+        <div class="responses">
+            <div class="scrolled" id="res">
+            </div>
+        </div>
+    </body>
+    <!---->
+    <!---->
+    <script src="./site/third/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="./site/main.js"></script>
+</html>

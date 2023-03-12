@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, monospace, sans-serif !important;
+    margin: 0;
+}
+
+b {
+    font-weight: 200 !important;
+}
+
+ul {
+    padding: 10px 0px 10px 15px;
+}
+
+img {
+    max-height: 400px;
+}
+
+.bot pre {
+    padding: 19px;
+    color: black;
+    background: #56565669;
+}
+
+.wrapper {
+    padding: 5rem 5px 1rem 5px;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.message {
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    gap: 1em;
+}
+
+.message>textarea {
+    outline: none;
+    border: none;
+    resize: none;
+    vertical-align: middle;
+    padding: 10px;
+    background: buttonface;
+    max-height: 170px;
+}
+
+.message>button {
+    border: none;
+    outline: none;
+    max-height: 25px;
+}
+
+.message>button:not(.disabled):hover {
+    cursor: pointer;
+    background: rgb(225, 225, 225);
+}
+
+.responses {
+    position: relative;
+    padding: 20px 0px 0px 0px;
+    display: grid;
+}
+
+.responses>.scrolled {
+    overflow: auto;
+    height: 50vh;
+}
+
+.responses>.scrolled>.msg {
+    padding: 0px 0px 0px 0px;
+}
+
+.responses>.scrolled>.msg.user {
+    background: rgb(224, 224, 224);
+    padding: 10px;
+}
+
+.responses>.scrolled>.msg.bot {
+    background: rgb(174, 206, 214);
+    padding: 10px;
+}

@@ -1,9 +1,9 @@
 ### Why I made this?
-I created this because I wanted a go at this chatbot stuff that has gotten popular based off chatgpt and other chatbots that have gotten somewhere, altho with very advance deep learning and not just plain javascript.
+I wanted to recreate a chatbot based off ChatGPT without all the fancy stuff, which means this is a hard coded javascript chat bot. It only answers specific questions, but can detect varied versions of those questions, like for greetings, you could say Hello, Hey, Hi, Heya, Heyo and get a gretting response, but saying Hola would cause it to not work.
 
 ### Possible questions the bot can answer
 
-* What is NumberxNumber
-* Can you write a hello word function in javascript?
+* ~~Can you solve NumxNum~~ (I guess I didn't finish this)
+* can you write a hello word function in javascript? (Case sensitive)
 * Hello
-* Can you generate an image?
+* can you generate an image? (Case sensitive)
